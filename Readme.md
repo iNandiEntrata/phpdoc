@@ -1,5 +1,3 @@
-# PHPDoc Documentation Guide With Code Refactoring
-
 ## Overview
 **PHPDoc** is an essential tool for generating well-structured and detailed documentation for your PHP code. It helps in making your code easier to understand and maintain by providing structured comments that describe the functionality of functions, classes, and methods.
 
