@@ -1,4 +1,4 @@
-## Overview
+## Overview :computer:
 **PHPDoc** is an essential tool for generating well-structured and detailed documentation for your PHP code. It helps in making your code easier to understand and maintain by providing structured comments that describe the functionality of functions, classes, and methods.
 
 ##### What is PHPDoc?
@@ -230,4 +230,6 @@ This structured approach allows developers to easily understand each function's 
 - **Keep PHPDoc comments updated** whenever you modify a function to prevent outdated information.
 - **Generate HTML documentation regularly** to ensure you have an up-to-date, navigable overview of your code.
 
-By following these guidelines, PHPDoc can significantly improve the maintainability and readability of your PHP projects.
+By following these guidelines, PHPDoc can significantly improve the maintainability and readability of your PHP projects. Powerful editors like **PHPStorm**<sup>[1](https://www.jetbrains.com/help/phpstorm/phpdoc-comments.html) [2](https://www.jetbrains.com/help/phpstorm/refactoring-source-code.html)</sup> and **VsCode**<sup>[1](https://docs.devsense.com/en/vscode/editor/refactoring) [2](https://code.visualstudio.com/docs/editor/refactoring)</sup> offer a wide range of features that make it easy to generate PHPdoc and refactor code.
+
+#### Happy Coding!!! :collision::collision:
