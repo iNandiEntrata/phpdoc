@@ -75,18 +75,13 @@ When it comes to writing code, especially in PHP (or any other language), the de
      - **Maintenance Nightmare:** When something breaks, you'll need a detective hat and a magnifying glass.
 
 **Recommendation:**
-- **Refactor!** But not blindly. Here's a balanced approach:
+- **Refactor!** But not blindly. Here's a balanced approach:<sup>[1](https://refactoring.guru/smells/long-method) [2](https://detectors.auditbase.com/refactor-long-functions-solidity) [3](https://medium.com/codex/should-functions-be-small-e76b45aa93f) [4](https://www.codesee.io/learning-center/code-refactoring) [5](https://www.freecodecamp.org/news/best-practices-for-refactoring-code/) [6](https://www.altexsoft.com/blog/code-refactoring-best-practices-when-and-when-not-to-do-it/) [7](https://devopedia.org/code-refactoring) [8](https://www.geeksforgeeks.org/7-code-refactoring-techniques-in-software-engineering/)</sup>
   - **Start Small:** Begin with small functions. If a piece of code does more than one thing, consider breaking it down.
   - **Think Responsibly:** Each function should have a clear responsibility. If it's doing too much, split it.
   - **Red-Green-Refactor:** Remember the red-green-refactor cycle from test-driven development? Apply it here too. Write tests, refactor, and keep your codebase healthy.
   - **Abstraction FTW:** If you notice common functionality shared by multiple classes or methods, extract it into a separate, abstract class or interface or trait. 
   
 #### Read these articles
-  [codesee](https://www.codesee.io/learning-center/code-refactoring)
-  [freecodecamp](https://www.freecodecamp.org/news/best-practices-for-refactoring-code/)
-  [altexsoft](https://www.altexsoft.com/blog/code-refactoring-best-practices-when-and-when-not-to-do-it/)
-  [devopedia](https://devopedia.org/code-refactoring)
-  [geeksforgeeks](https://www.geeksforgeeks.org/7-code-refactoring-techniques-in-software-engineering/)
 
 ### PHPDoc for Small Functions
 PHPDoc works best for small, focused functions because it ensures that each parameter and return type is documented clearly. Here’s an example of a small function that benefits from PHPDoc:
