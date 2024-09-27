@@ -199,7 +199,8 @@ Once PHPDocumentor is installed (which is already present in the repo), you can 
 php phpDocumentor.phar run -d . -t docs
 ```
 
-This command will generate the HTML, CSS, and JS necessary for the documentation. You can then open the `docs/index.html` file in a browser to view the documentation. Here’s an example of how it will look:
+This command will generate the HTML, CSS, and JS necessary for the documentation. *(This step is already done in this repo, You dont need to generate again, you can open doc/index.html. If you make any changes in code, then re-run the command)*
+You can then open the `docs/index.html` file in a browser to view the documentation. Here’s an example of how it will look:
 
 <img src="images/home.png" alt="Home Screen">
 
