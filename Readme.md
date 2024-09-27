@@ -81,7 +81,6 @@ When it comes to writing code, especially in PHP (or any other language), the de
   - **Red-Green-Refactor:** Remember the red-green-refactor cycle from test-driven development? Apply it here too. Write tests, refactor, and keep your codebase healthy.
   - **Abstraction FTW:** If you notice common functionality shared by multiple classes or methods, extract it into a separate, abstract class or interface or trait. 
   
-#### Read these articles
 
 ### PHPDoc for Small Functions
 PHPDoc works best for small, focused functions because it ensures that each parameter and return type is documented clearly. Here’s an example of a small function that benefits from PHPDoc:
