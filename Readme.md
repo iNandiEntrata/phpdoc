@@ -52,7 +52,7 @@ When it comes to writing code, especially in PHP (or any other language), the de
 
 1. **Small, Refactored Functions:**
     
-    These are like bite-sized code nuggets. You break down your logic into smaller chunks, each with a specific purpose.
+  These are like bite-sized code nuggets. You break down your logic into smaller chunks, each with a specific purpose.
    - **Pros:**
      - **Readability:** Smaller functions are easier to understand. You can name them descriptively, making your code self-documenting.
      - **Reusability:** When you have small functions, you can reuse them across different parts of your application.
@@ -63,7 +63,8 @@ When it comes to writing code, especially in PHP (or any other language), the de
      - **Too Many Functions:** If you go overboard, you might end up with a function explosion. Aim for a balance.
 
 2. **Long, Single Functions (The Monolith):**
- These are the "I'll do it all" functions. They handle everything from database queries to rendering HTML.
+ 
+  These are the "I'll do it all" functions. They handle everything from database queries to rendering HTML.
    - **Pros:**
      - **Simplicity:** You have one big function, and that's it. No jumping around.
      - **Performance:** Fewer function calls mean slightly better performance.
